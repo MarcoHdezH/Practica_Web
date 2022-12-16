@@ -170,7 +170,6 @@
             var url = "http://localhost/xmlOto/jsonPHP/";
 
             $.ajax({url:url,success:function(result){
-                //console.log(result.usuarios.length);
                 var mihtml="";
 
                 mihtml += '<table class="table table-hover">';
